@@ -1,0 +1,73 @@
+/* General styling for body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px; /* Margin on all four sides */
+    background-color: greenyellow;
+    box-sizing: border-box;
+}
+
+/* Styling for container */
+.container {
+    width: 575px;
+    background-color: #ffffff; /* White background for container */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-align: center; /* Center-align content */
+    padding: 30px;
+}
+
+/* Styling for height and weight input fields */
+#height,
+#weight {
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Styling for button */
+button {
+    width: 200px;
+    height: 45px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 2px solid #212121;
+    border-radius: 8px;
+    color: #212121;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #212121;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+/* Styling for results display */
+#results {
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(41, 41, 41);
+}
+
+/* Styling for weight guide */
+#weight-guide {margin-top: 20px;}
+#weight-guide h3 {font-size: 22px;}
+#weight-guide p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Styling for heading */
+h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #212121;
+}
